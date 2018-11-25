@@ -15,10 +15,65 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
 </head>
 
 <body>
+    <header class="jumbotron">
+        <h1>Rock-Paper-Scissors</h1>
+    </header>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Player 1
+                    </div>
+                    <div class="card-body">
+                        <button type="button">
+                            <img src="assets/images/left-rock.png" alt="rock">
+                        </button>
+                        <button type="button">
+                            <img src="assets/images/left-paper.png" alt="paper">
+                        </button>
+                        <button type="button">
+                            <img src="assets/images/left-scissors.png" alt="scissors">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Player 2
+                    </div>
+                    <div class="card-body">
+                        <img src="assets/images/right-paper.png" alt="paper">
+                        <img src="assets/images/right-rock.png" alt="rock">
+                        <img src="assets/images/right-scissors.png" alt="scissors">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-header">Chat</div>
+                    <div class="card-body" id="chatbox">
+                        Hello ;-)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Shayne
+    </footer>
 
     <!-- JavaScript -->
     <script src="assets/javascript/main.js"></script>
