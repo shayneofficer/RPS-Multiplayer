@@ -1,1 +1,4 @@
-# Rock-Paper-Scissors
+# RPS-Multiplayer
+
+## About
+Multiplayer rock-paper-scissors game.
